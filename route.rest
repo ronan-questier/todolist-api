@@ -1,3 +1,10 @@
 GET http://127.0.0.1:3030/todos/
 ###
 GET http://127.0.0.1:3030/todos/12
+###
+POST http://127.0.0.1:3030/todos
+Content-Type: application/json
+
+{
+  "content" : "Tache rajoutée pour les tests."
+}
