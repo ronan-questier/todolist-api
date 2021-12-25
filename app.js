@@ -15,5 +15,5 @@ const todosRouter = require("./routes/todos");
 app.use("/todos", todosRouter);
 
 app.listen(3030, () => {
-  console.info("http://127.0.0.1:3030");
+  console.info("http://127.0.0.1:3030/todos");
 });
