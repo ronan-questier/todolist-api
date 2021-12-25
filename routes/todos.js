@@ -7,7 +7,9 @@ router.get("/", (req, res) => {
 });
 
 // get specific todo
-router.get("/:id", (req, res) => {});
+router.get("/:id", (req, res) => {
+  res.send(req.params.id);
+});
 
 // creating todo
 router.post("/", (req, res) => {});
